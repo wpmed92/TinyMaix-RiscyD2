@@ -25,7 +25,7 @@
 #define SW_2          0x3200B
 #define SW_3          0x3200C
 
-#define CYCLES_PER_MS 20000
+#define CYCLES_PER_MS 100000
 
 void riscy_print(unsigned char* buffer) {
     while(*buffer != 0) {
